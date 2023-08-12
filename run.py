@@ -9,15 +9,27 @@ def tax_calculate(x):
         return tax_pay
 
     elif x >= 50271 and x <= 125140:
-        tax_pay = 7539.8 + 0.4 * (x - 50271)
+        tax_pay = 7540 + 0.4 * (x - 50270)
         return tax_pay
 
     elif x > 125140:
-        tax_pay = 29947.6 + 0.45 * (x - 125140)
+        tax_pay = (7540 + 29948) + 0.45 * (x - 125140)
         return tax_pay
 
 def main():
     user_name = input("Enter your Name: ")
-    user_earn = input("How much you earn a year: £")
+    while True:
+        user_earn = input("How much you earn a year: £")
 
+        try:
+            float()
+            user_earn = float(user_earn)
+            print(tax_calculate(user_earn))
+        except ValueError:
+            if user_earn.isnumeric():
+                user_earn = int(user_earn)
+                print(tax_calculate(user_earn))
+            else:
+                print("Insert a correct value to calculate your annual Tax")
+    
 main()
