@@ -16,8 +16,13 @@ def tax_calculate(x):
         tax_pay = (7540 + 29948) + 0.45 * (x - 125140)
         return tax_pay
 
+
 def main():
-    user_name = input("Enter your Name: ")
+    print("-------------------------------------------")
+    print("    WELCOME TO THE TAX CALCULATOR (UK)")
+    print("APPLICATION THAT CALCULATES YOUR ANNUAL TAX")
+    print("-------------------------------------------")
+    user_name = input("Please enter your Name: ")
     while True:
         user_earn = input("How much you earn a year: £")
 
@@ -30,6 +35,6 @@ def main():
                 user_earn = int(user_earn)
                 print(tax_calculate(user_earn))
             else:
-                print("Insert a correct value to calculate your annual Tax")
-    
+                print("Insert a correct value to calculate your annual Tax!!!")    
 main()
+
