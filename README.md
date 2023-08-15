@@ -1,32 +1,31 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# __TAX Calculator__
 
-Welcome,
+Tax Calculator is a tool that by anyone that is curious how much tax they would be paying on a given amount. This calculator is made for the UK users as each country has their own TAX bands and requirements, but this could be added in the future.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+## __How to use__
 
-## Reminders
+The tool works as followed. You are welcomed with a message which ask you to enter your name, after you have prompted your name and hit enter you will be taken to the next step. You will now be asked to input your annual income in British Pounds which you would like to calculate. Then the application automatically finds your TAX Band and proceeds to give you the exact amount how much TAX you will need to pay for this amount.
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+## __Features__
 
-## Creating the Heroku app
+- Welcome Message
+    - You are greeted with a welcoming message which explains to the user that this application should only be used to calculate tax within the uk.
+    
+- TAX Band Detection
+    - The software will automatically put you in the right TAX bracket so that your income gets calculated correctly.
+    - It accepts any amount and returns the tax amount you would need to pay to the user with the associated Tax Band.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+- 
 
-1. `heroku/python`
-2. `heroku/nodejs`
+### __Future Features__
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+- The user can choose what country they would like to calculate tax.
+- A breakdown of tax per month or week
+- Option to save or share your results
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+## __Testing__
 
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
----
-
-Happy coding!
+I tested the application by entering in different type of data
+    - numbers: 123, 999999, 3.14 , 2000.11111
+    - text: hello, jhon, bye1234
+    - special characters: @, £, %, ^
