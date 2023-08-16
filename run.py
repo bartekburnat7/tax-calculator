@@ -33,11 +33,11 @@ def main():
         try:
             float()
             user_earn = float(user_earn)
-            print(user_name , ", you would be paying: £" , "%.2f" % tax_calculate(user_earn) , "per year")
+            print(user_name , ", you would be paying: £" , "%.2f" % tax_calculate(user_earn) , "TAX this year")
         except ValueError:
             if user_earn.isnumeric():
                 user_earn = int(user_earn)
-                print(user_name , ", you would be paying: £", "%.2f" % tax_calculate(user_earn) , "per year")
+                print(user_name , ", you would be paying: £", "%.2f" % tax_calculate(user_earn) , "TAX this year")
             else:
                 print("Insert a correct value to calculate your annual Tax!!!")
 main()
