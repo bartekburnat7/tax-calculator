@@ -48,7 +48,7 @@ I tested the application by entering in different type of data
 
 - There was no major errors returned by the https://pep8ci.herokuapp.com/ validifier
 
-## Deployment
+## __Deployment__
 
 I deployed the application to a cloud based platfor heroku which enables you to interact with the app througha console:
 
