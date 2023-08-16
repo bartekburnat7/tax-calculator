@@ -40,11 +40,11 @@ I tested the application by entering in different type of data
 - text: hello, jhon, bye1234
 - special characters: @, £, %, ^
 
-### Bugs
+### __Bugs__
 
 - From my testing I have not found any bugs with the application so far
 
-### Validator Testing
+### __Validator Testing__
 
 - There was no major errors returned by the https://pep8ci.herokuapp.com/ validifier
 
