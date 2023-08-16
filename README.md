@@ -35,9 +35,10 @@ The tool works as followed. You are welcomed with a message which ask you to ent
 ## __Testing__
 
 I tested the application by entering in different type of data
-    - numbers: 123, 999999, 3.14 , 2000.11111
-    - text: hello, jhon, bye1234
-    - special characters: @, £, %, ^
+
+- numbers: 123, 999999, 3.14 , 2000.11111
+- text: hello, jhon, bye1234
+- special characters: @, £, %, ^
 
 ### Bugs
 
