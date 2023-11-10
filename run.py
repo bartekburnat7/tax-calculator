@@ -32,7 +32,7 @@ def take_user_name_input():
     if len(name) > 2 and name.replace(" ", "").isalpha():
         return name
     else:
-        print("The name you entered is invalid. Enter a valid \n")
+        print("The name you entered is invalid. Enter a valid name\n")
         return take_user_name_input()
 
 
